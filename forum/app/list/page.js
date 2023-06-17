@@ -13,6 +13,7 @@ export default async function List() {
                         <Link prefetch={false} href={'/detail/' + result[i]._id}>
                             <h4>{a.title}</h4>
                         </Link>
+                        <Link href={'/edit/' + result[i]._id}>수정</Link>
                         <p>1월 1일</p>
                     </div>
                 )
